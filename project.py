@@ -12,5 +12,4 @@ with open(input_path,'rb') as i :
         input_file = i.read()
         output_file = remove(input_file)
         o.write(output_file)
-
 print("Program Finished")
